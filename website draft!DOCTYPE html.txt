@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Teacher Pat - English Coaching</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto:wght@400;700&display=swap');
+  body {
+    margin: 0; padding: 0;
+    font-family: 'Nanum Gothic', 'Roboto', sans-serif;
+    background: #f7f3f2;
+    color: #4a4a4a;
+    line-height: 1.6;
+  }
+  header {
+    background: #f5d6e8;
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+    color: #7b4966;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+  header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  main {
+    max-width: 700px;
+    margin: 2rem auto 4rem;
+    padding: 0 1rem;
+  }
+  .hero {
+    background: #fbe9f7;
+    border-radius: 15px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(123, 73, 102, 0.1);
+  }
+  .hero h2 {
+    font-size: 2rem;
+    color: #9b4d75;
+    margin-bottom: 0.5rem;
+  }
+  .hero ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 2rem;
+  }
+  .hero ul li {
+    margin: 0.6rem 0;
+    font-size: 1.1rem;
+  }
+  .btn-primary {
+    background: #9b4d75;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    display: inline-block;
+  }
+  .btn-primary:hover {
+    background: #7b3a5a;
+  }
+  section {
+    margin-top: 3rem;
+  }
+  section h3 {
+    font-size: 1.8rem;
+    color: #7b4966;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #f5d6e8;
+    padding-bottom: 0.3rem;
+  }
+  .testimonial {
+    background: #f5d6e8;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    font-style: italic;
+    color: #55354f;
+  }
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 2rem 1rem;
+    color: #a57a93;
+    border-top: 1px solid #f5d6e8;
+  }
+  a.contact-link {
+    color: #9b4d75;
+    text-decoration: underline;
+  }
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 2rem;
+    }
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Teacher Pat</h1>
+  <p>Confident English & Communication Coaching</p>
+  <p>Speak Eloquently. Connect Globally.</p>
+</header>
+
+<main>
+
+  <section class="hero" aria-label="Introduction and benefits">
+    <h2>Learn English with Teacher Pat</h2>
+    <ul>
+      <li>Interactive lessons for kids & adults</li>
+      <li>Master eloquent spoken English</li>
+      <li>Boost your confidence & communication skills</li>
+      <li>Customized coaching for Asian learners worldwide</li>
+    </ul>
+    <a class="btn-primary" href="mailto:patricia1naicker@gmail.com?subject=Free%20Trial%20Lesson%20Booking" target="_blank" rel="noopener">Book a FREE Trial Lesson</a>
+  </section>
+
+  <section aria-label="Why choose Teacher Pat">
+    <h3>Why Choose Teacher Pat?</h3>
+    <ul>
+      <li>10+ years corporate communications expertise</li>
+      <li>TEFL certified with experience teaching all ages</li>
+      <li>Fluent in 4 languages, culturally aware</li>
+      <li>Tailored lessons for your goals & pace</li>
+      <li>Friendly, patient, and results-focused approach</li>
+    </ul>
+  </section>
+
+  <section aria-label="What you will get">
+    <h3>What You’ll G
