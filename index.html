@@ -4,102 +4,199 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Teacher Pat — English Tutor & Communications Coach</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap" rel="stylesheet" />
   <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0; padding: 0;
-      background: #f7f9f9;
-      color: #2f4f4f;
-      line-height: 1.6;
-    }
-    header {
-      background-color: #355e3b; /* hunter green */
-      color: #f0f4f1;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    header h1 {
+      font-family: 'Open Sans', Arial, sans-serif;
       margin: 0;
-      font-size: 2.5rem;
-      letter-spacing: 2px;
+      padding: 0;
+      background-color: #f9faf9;
+      color: #2e3c2f;
+      line-height: 1.65;
+      font-size: 16px;
     }
-    header p {
-      margin: 0.5rem 0 0;
+
+    header {
+      background-color: #355e3b; /* Hunter Green */
+      color: #f1f5f2;
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    }
+
+    header h1 {
+      font-family: 'Merriweather', serif;
+      font-size: 3rem;
+      margin-bottom: 0.2rem;
+      letter-spacing: 3px;
+    }
+
+    header p.subtitle {
       font-weight: 600;
-      font-size: 1.1rem;
+      font-size: 1.25rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      letter-spacing: 1.2px;
     }
-    .container {
+
+    header p.contact-info {
+      font-weight: 400;
+      font-size: 1rem;
+      margin: 0.2rem 0;
+    }
+
+    header a {
+      color: #e4f0d9;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+
+    header a:hover {
+      color: #c6d8b7;
+    }
+
+    main {
       max-width: 900px;
-      margin: 2rem auto;
+      margin: 3rem auto 5rem;
       padding: 0 1rem;
+      background: #fff;
+      box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+      border-radius: 10px;
     }
-    .photo {
+
+    .photo-container {
+      text-align: center;
+      margin-top: -80px;
+    }
+
+    .photo-container img {
       max-width: 180px;
       border-radius: 50%;
-      display: block;
-      margin: 0 auto 1rem;
-      border: 4px solid #355e3b;
+      border: 5px solid #355e3b;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
+
     section {
-      margin-bottom: 2.5rem;
+      padding: 2rem 2.5rem 2.5rem;
+      border-bottom: 1px solid #dfe7dc;
     }
+
+    section:last-child {
+      border-bottom: none;
+    }
+
     h2 {
-      border-bottom: 3px solid #355e3b;
-      padding-bottom: 0.4rem;
-      color: #355e3b;
+      font-family: 'Merriweather', serif;
+      font-weight: 700;
+      font-size: 1.9rem;
       margin-bottom: 1rem;
+      color: #355e3b;
+      border-bottom: 3px solid #355e3b;
+      padding-bottom: 0.3rem;
     }
+
+    p, ul {
+      font-size: 1.05rem;
+      color: #3b4b38;
+    }
+
     ul {
-      list-style: none;
-      padding-left: 0;
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      margin-top: 0;
     }
+
     ul li {
       margin-bottom: 0.6rem;
     }
-    a {
-      color: #355e3b;
+
+    a.youtube-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #e52d27;
+      color: white;
+      font-weight: 700;
+      border-radius: 5px;
       text-decoration: none;
-      font-weight: 600;
+      transition: background-color 0.3s ease;
     }
-    a:hover {
-      text-decoration: underline;
+
+    a.youtube-link:hover {
+      background-color: #b0201a;
     }
+
     iframe {
       display: block;
-      margin: 1rem auto;
       max-width: 100%;
-      height: 315px;
+      height: 360px;
       border-radius: 10px;
       border: none;
+      margin: 1.5rem auto 0;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.12);
     }
+
     footer {
       text-align: center;
+      color: #7a856f;
       font-size: 0.9rem;
-      color: #777;
-      margin: 3rem 0 1rem;
+      margin-bottom: 3rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      main {
+        margin: 2rem 1rem 3rem;
+        padding: 1.5rem 1.5rem 2rem;
+      }
+      section {
+        padding: 1.5rem 1.5rem 2rem;
+      }
+      iframe {
+        height: 240px;
+      }
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Teacher Pat</h1>
-    <p>English Tutor & Communications Coach</p>
-    <p>Johannesburg, South Africa | <a href="mailto:patricia1naicker@gmail.com">patricia1naicker@gmail.com</a> | +27 82 721 3534</p>
-    <p><a href="https://www.linkedin.com/in/patricianaicker" target="_blank" rel="noopener">LinkedIn Profile</a></p>
+    <p class="subtitle">English Tutor & Communications Coach</p>
+    <p class="contact-info">
+      Johannesburg, South Africa &nbsp; | &nbsp; 
+      <a href="mailto:patricia1naicker@gmail.com">patricia1naicker@gmail.com</a> &nbsp; | &nbsp; +27 82 721 3534
+    </p>
+    <p class="contact-info">
+      <a href="https://www.linkedin.com/in/patricianaicker" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+    </p>
   </header>
 
-  <div class="container">
-    <img class="photo" src="https://github.com/TeacherPatricia/TeacherPat/blob/main/Patricia%20N%20_%20professional%20photo.jpg?raw=true" alt="Teacher Pat photo" />
+  <main>
+    <div class="photo-container">
+      <img src="https://github.com/TeacherPatricia/TeacherPat/blob/main/Patricia%20N%20_%20professional%20photo.jpg?raw=true" alt="Teacher Pat photo" />
+    </div>
 
     <section>
       <h2>Introduction</h2>
       <p>
-        Passionate and multilingual Online English Teacher with a strong foundation in corporate communication and over a decade of experience connecting with diverse audiences. 
+        Passionate and multilingual Online English Teacher with a strong foundation in corporate communication and over a decade of experience connecting with diverse audiences.
         120-hour TEFL certified, with hands-on experience tutoring children in English fluency and confidence.
-        <br /><br />
+      </p>
+      <p>
         I am known for creating nurturing, learner-centered virtual classrooms. I speak four languages and deeply appreciate global cultures with a commitment to lifelong learning.
       </p>
-      <iframe src="https://www.youtube.com/embed/vv7J3eSUc9w" title="Intro Video" allowfullscreen></iframe>
+      <a href="https://youtu.be/vv7J3eSUc9w?si=_8GaZ0ZYx2oHJI0N" target="_blank" class="youtube-link" rel="noopener noreferrer">
+        Watch Intro Video
+      </a>
+      <iframe src="https://www.youtube.com/embed/vv7J3eSUc9w" title="Teacher Pat Introduction Video" allowfullscreen></iframe>
     </section>
 
     <section>
@@ -124,7 +221,9 @@
 
     <section>
       <h2>Teaching Experience</h2>
-      <p>Freelance English Tutor tutoring children aged 7–14 in English fluency and literacy.</p>
+      <p>
+        Freelance English Tutor tutoring children aged 7–14 in English fluency and literacy.
+      </p>
     </section>
 
     <section>
@@ -141,7 +240,7 @@
         <li>BTech Language Practice (Cum Laude) - Tshwane University of Technology, 2003</li>
       </ul>
     </section>
-  </div>
+  </main>
 
   <footer>
     <p>&copy; 2025 Patricia Naicker | Teacher Pat</p>
