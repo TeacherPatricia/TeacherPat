@@ -2,248 +2,108 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Teacher Pat — English Tutor & Communications Coach</title>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teacher Pat | English Fluency & Communication Confidence</title>
   <style>
-    /* Reset */
-    * {
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: 'Open Sans', Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
       margin: 0;
       padding: 0;
-      background-color: #f9faf9;
-      color: #2e3c2f;
-      line-height: 1.65;
-      font-size: 16px;
+      line-height: 1.6;
     }
-
     header {
-      background-color: #355e3b; /* Hunter Green */
-      color: #f1f5f2;
-      text-align: center;
-      padding: 3rem 1rem 2rem;
-      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-    }
-
-    header h1 {
-      font-family: 'Merriweather', serif;
-      font-size: 3rem;
-      margin-bottom: 0.2rem;
-      letter-spacing: 3px;
-    }
-
-    header p.subtitle {
-      font-weight: 600;
-      font-size: 1.25rem;
-      margin-top: 0;
-      margin-bottom: 1rem;
-      letter-spacing: 1.2px;
-    }
-
-    header p.contact-info {
-      font-weight: 400;
-      font-size: 1rem;
-      margin: 0.2rem 0;
-    }
-
-    header a {
-      color: #e4f0d9;
-      text-decoration: underline;
-      font-weight: 600;
-    }
-
-    header a:hover {
-      color: #c6d8b7;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 3rem auto 5rem;
-      padding: 0 1rem;
-      background: #fff;
-      box-shadow: 0 3px 15px rgba(0,0,0,0.07);
-      border-radius: 10px;
-    }
-
-    .photo-container {
-      text-align: center;
-      margin-top: -80px;
-    }
-
-    .photo-container img {
-      max-width: 180px;
-      border-radius: 50%;
-      border: 5px solid #355e3b;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    }
-
-    section {
-      padding: 2rem 2.5rem 2.5rem;
-      border-bottom: 1px solid #dfe7dc;
-    }
-
-    section:last-child {
-      border-bottom: none;
-    }
-
-    h2 {
-      font-family: 'Merriweather', serif;
-      font-weight: 700;
-      font-size: 1.9rem;
-      margin-bottom: 1rem;
-      color: #355e3b;
-      border-bottom: 3px solid #355e3b;
-      padding-bottom: 0.3rem;
-    }
-
-    p, ul {
-      font-size: 1.05rem;
-      color: #3b4b38;
-    }
-
-    ul {
-      list-style-type: disc;
-      padding-left: 1.5rem;
-      margin-top: 0;
-    }
-
-    ul li {
-      margin-bottom: 0.6rem;
-    }
-
-    a.youtube-link {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.6rem 1.2rem;
-      background-color: #e52d27;
+      background-color: #2d3e50;
       color: white;
-      font-weight: 700;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: background-color 0.3s ease;
+      padding: 2rem;
+      text-align: center;
     }
-
-    a.youtube-link:hover {
-      background-color: #b0201a;
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
     }
-
-    iframe {
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    img {
+      max-width: 200px;
+      border-radius: 100px;
       display: block;
-      max-width: 100%;
-      height: 360px;
-      border-radius: 10px;
-      border: none;
-      margin: 1.5rem auto 0;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+      margin: 0 auto 1rem auto;
     }
-
+    h2 {
+      color: #2d3e50;
+      margin-top: 1.5rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
     footer {
       text-align: center;
-      color: #7a856f;
-      font-size: 0.9rem;
-      margin-bottom: 3rem;
-    }
-
-    /* Responsive */
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2.2rem;
-      }
-      main {
-        margin: 2rem 1rem 3rem;
-        padding: 1.5rem 1.5rem 2rem;
-      }
-      section {
-        padding: 1.5rem 1.5rem 2rem;
-      }
-      iframe {
-        height: 240px;
-      }
+      margin: 2rem 0;
+      color: #888;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Teacher Pat</h1>
-    <p class="subtitle">English Tutor & Communications Coach</p>
-    <p class="contact-info">
-      Johannesburg, South Africa &nbsp; | &nbsp; 
-      <a href="mailto:patricia1naicker@gmail.com">patricia1naicker@gmail.com</a> &nbsp; | &nbsp; +27 82 721 3534
-    </p>
-    <p class="contact-info">
-      <a href="https://www.linkedin.com/in/patricianaicker" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
-    </p>
+    <h1>Teacher Pat | English Fluency & Communication Confidence</h1>
   </header>
+  <div class="container">
+    <img src="Patricia N _ professional photo.jpg" alt="Teacher Pat">
+    <h2>Meet Teacher Pat</h2>
+    <p>
+      Hello! I'm <strong>Patricia Naicker</strong>, also known as <strong>Teacher Pat</strong> — an Online English Teacher, Communication Specialist, and Confidence Coach based in Johannesburg, South Africa.
+    </p>
+    <p>
+      I’m passionate about helping learners of all ages become confident, eloquent English speakers. I bring over a decade of experience in corporate communications and am TEFL-certified with real classroom experience teaching children and adults.
+    </p>
 
-  <main>
-    <div class="photo-container">
-      <img src="https://github.com/TeacherPatricia/TeacherPat/blob/main/Patricia%20N%20_%20professional%20photo.jpg?raw=true" alt="Teacher Pat photo" />
-    </div>
+    <h2>What I Offer</h2>
+    <ul>
+      <li>Conversational & Business English Lessons</li>
+      <li>Grammar, Pronunciation & Fluency Practice</li>
+      <li>Confidence Coaching for Public Speaking & Interviews</li>
+      <li>Cross-Cultural Communication Support</li>
+    </ul>
 
-    <section>
-      <h2>Introduction</h2>
-      <p>
-        Passionate and multilingual Online English Teacher with a strong foundation in corporate communication and over a decade of experience connecting with diverse audiences.
-        120-hour TEFL certified, with hands-on experience tutoring children in English fluency and confidence.
-      </p>
-      <p>
-        I am known for creating nurturing, learner-centered virtual classrooms. I speak four languages and deeply appreciate global cultures with a commitment to lifelong learning.
-      </p>
-      <a href="https://youtu.be/vv7J3eSUc9w?si=_8GaZ0ZYx2oHJI0N" target="_blank" class="youtube-link" rel="noopener noreferrer">
-        Watch Intro Video
-      </a>
-      <iframe src="https://www.youtube.com/embed/vv7J3eSUc9w" title="Teacher Pat Introduction Video" allowfullscreen></iframe>
-    </section>
+    <h2>Languages I Speak</h2>
+    <p>Fluent/Conversational: English, Russian, French, Afrikaans, Zulu<br>
+    Learning: Korean</p>
 
-    <section>
-      <h2>Core Skills</h2>
-      <ul>
-        <li>Conversational & Business English</li>
-        <li>Grammar & Pronunciation</li>
-        <li>Cross-Cultural Communication</li>
-        <li>Confidence Coaching</li>
-        <li>Lesson Planning</li>
-        <li>Tech-Savvy Instruction</li>
-      </ul>
-    </section>
+    <h2>Certifications & Education</h2>
+    <ul>
+      <li>120-hour TEFL Certificate</li>
+      <li>BA (Hons) Communication Science – University of South Africa</li>
+      <li>BTech Language Practice (Cum Laude) – Tshwane University of Technology</li>
+    </ul>
 
-    <section>
-      <h2>Languages</h2>
-      <ul>
-        <li>Fluent & Conversational: English, Russian, French, Afrikaans, Zulu</li>
-        <li>Learning: Basic Korean</li>
-      </ul>
-    </section>
+    <h2>Watch My Intro Video</h2>
+    <p>
+      <a href="https://youtu.be/vv7J3eSUc9w?si=_8GaZ0ZYx2oHJI0N" target="_blank">Click here to watch on YouTube</a>
+    </p>
 
-    <section>
-      <h2>Teaching Experience</h2>
-      <p>
-        Freelance English Tutor tutoring children aged 7–14 in English fluency and literacy.
-      </p>
-    </section>
-
-    <section>
-      <h2>Certification</h2>
-      <p>
-        Successfully completed 120-hour TEFL certification, equipping me with practical skills in lesson planning, classroom management, grammar instruction, and engaging language learners of all levels. Qualified to teach English both virtually and in-person.
-      </p>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li>BA (Hons) Communication Science - University of South Africa, 2014</li>
-        <li>BTech Language Practice (Cum Laude) - Tshwane University of Technology, 2003</li>
-      </ul>
-    </section>
-  </main>
+    <h2>Get In Touch</h2>
+    <p>Email: <a href="mailto:patricia1naicker@gmail.com">patricia1naicker@gmail.com</a><br>
+    WhatsApp: +27 82 721 3534<br>
+    LinkedIn: <a href="https://www.linkedin.com/in/patricianaicker" target="_blank">www.linkedin.com/in/patricianaicker</a></p>
+  </div>
 
   <footer>
-    <p>&copy; 2025 Patricia Naicker | Teacher Pat</p>
+    &copy; 2025 Teacher Pat | All rights reserved.
   </footer>
 </body>
 </html>
