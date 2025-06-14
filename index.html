@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Teacher Pat | English Tutor & Communication Coach</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap');
@@ -65,6 +65,90 @@
       color: #888;
       font-size: 0.9rem;
     }
+    /* Contact form styling */
+    form {
+      background: #f6f6f6;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 0.4rem;
+      font-weight: 600;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.6rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 1rem;
+      resize: vertical;
+    }
+    button {
+      background-color: #437c6c;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.3rem;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #355e53;
+    }
+    /* Testimonials styling */
+    .testimonials {
+      background-color: #e9f2ec;
+      border-radius: 14px;
+      padding: 1.5rem 2rem;
+      margin-top: 2rem;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    }
+    .testimonial {
+      margin-bottom: 1.2rem;
+      font-style: italic;
+      color: #3b3b3b;
+      position: relative;
+      padding-left: 1.4rem;
+    }
+    .testimonial:before {
+      content: "“";
+      font-size: 2.5rem;
+      color: #437c6c;
+      position: absolute;
+      left: 0;
+      top: -0.5rem;
+      font-family: serif;
+    }
+    /* Booking button styling */
+    .booking-btn {
+      display: inline-block;
+      background-color: #437c6c;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 700;
+      margin-top: 1rem;
+      transition: background-color 0.3s ease;
+    }
+    .booking-btn:hover {
+      background-color: #355e53;
+    }
+    /* Why Learn With Me */
+    .why-learn {
+      background-color: #f6f6f6;
+      border-radius: 14px;
+      padding: 1.5rem 2rem;
+      margin-top: 2rem;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+      color: #2b2b2b;
+    }
   </style>
 </head>
 <body>
@@ -80,6 +164,13 @@
     <p>
       I’m passionate about helping learners of all ages become confident, eloquent English speakers. I bring over a decade of experience in corporate communications and am TEFL-certified with hands-on experience tutoring children and adults.
     </p>
+
+    <div class="why-learn">
+      <h2>Why Learn With Me?</h2>
+      <p>
+        With my multicultural background and fluency in multiple languages, I create a nurturing, learner-centered environment tailored to your unique goals. My lessons focus on practical communication skills, confidence-building, and cultural understanding, so you can speak English eloquently and authentically anywhere in the world.
+      </p>
+    </div>
 
     <h2>What I Offer</h2>
     <ul>
@@ -102,13 +193,36 @@
 
     <h2>Watch My Intro Video</h2>
     <p>
-      <a href="https://youtu.be/vv7J3eSUc9w?si=_8GaZ0ZYx2oHJI0N" target="_blank">Click here to watch on YouTube</a>
+      <a href="https://youtu.be/vv7J3eSUc9w?si=_8GaZ0ZYx2oHJI0N" target="_blank" rel="noopener noreferrer">Click here to watch on YouTube</a>
     </p>
 
+    <h2>What Students Say</h2>
+    <div class="testimonials">
+      <div class="testimonial">Teacher Pat’s lessons transformed my confidence in speaking English. She is patient, encouraging, and truly cares about her students.</div>
+      <div class="testimonial">I improved my pronunciation and business communication skills thanks to Teacher Pat’s clear guidance and practical approach.</div>
+      <div class="testimonial">Her multicultural understanding made me feel comfortable and helped me learn faster. Highly recommended!</div>
+    </div>
+
+    <h2>Book a Lesson</h2>
+    <a href="https://calendly.com/yourcalendlylink" class="booking-btn" target="_blank" rel="noopener noreferrer">Schedule Your Lesson Now</a>
+
     <h2>Get In Touch</h2>
+    <form action="https://formspree.io/f/mayvryyp" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="_replyto" placeholder="Your email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
     <p>Email: <a href="mailto:patricia1naicker@gmail.com">patricia1naicker@gmail.com</a><br>
     WhatsApp: +27 82 721 3534<br>
-    LinkedIn: <a href="https://www.linkedin.com/in/patricianaicker" target="_blank">www.linkedin.com/in/patricianaicker</a></p>
+    LinkedIn: <a href="https://www.linkedin.com/in/patricianaicker" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/patricianaicker</a></p>
   </div>
 
   <footer>
