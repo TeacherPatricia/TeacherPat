@@ -4,21 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Teacher Pat | English Tutor & Communication Coach</title>
-  <meta name="description" content="Teacher Pat - Online English tutor and communication coach offering conversational & business English lessons, confidence coaching, and cross-cultural communication. Book your session now!" />
-  <meta name="keywords" content="English tutor, communication coach, online English lessons, TEFL, confidence coaching, business English, conversational English, learn English, English pronunciation, Asian learners" />
+  <meta name="description" content="Teacher Pat - Online English Tutor & Communications Coach. TEFL certified. Specializing in conversational & business English, confidence coaching, and cross-cultural communication." />
+  <meta name="keywords" content="English tutor, English teacher, communication coach, TEFL, confidence coaching, conversational English, business English, online English lessons, Teacher Pat" />
   <meta name="author" content="Patricia Naicker" />
-  <!-- Open Graph / Facebook -->
-  <meta property="og:title" content="Teacher Pat | English Tutor & Communication Coach" />
-  <meta property="og:description" content="Book personalized online English lessons and communication coaching with Teacher Pat." />
-  <meta property="og:image" content="Patricia N _ professional photo.jpg" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://teacherpatricia.github.io/TeacherPat/" />
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Teacher Pat | English Tutor & Communication Coach" />
-  <meta name="twitter:description" content="Book personalized online English lessons and communication coaching with Teacher Pat." />
-  <meta name="twitter:image" content="Patricia N _ professional photo.jpg" />
-
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap');
 
@@ -74,56 +62,58 @@
     a:hover {
       text-decoration: underline;
     }
+    .video-and-social {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .social-links {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    .social-links a {
+      color: #437c6c;
+      font-weight: 600;
+    }
+    iframe {
+      max-width: 100%;
+      height: 315px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .calendly-embed {
+      margin-top: 2rem;
+      text-align: center;
+    }
     footer {
       text-align: center;
       margin: 2rem 0;
-      color: #888;
-      font-size: 0.9rem;
+      color: #666;
+      font-size: 0.85rem;
+      font-style: italic;
+      font-family: 'Noto Serif KR', serif;
+      line-height: 1.4;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1rem 1rem 3rem 1rem;
     }
-    /* Booking button styling */
-    .booking-button {
-      display: block;
-      max-width: 240px;
-      margin: 2rem auto 1rem auto;
-      background-color: #437c6c;
-      color: #fff;
-      text-align: center;
-      padding: 12px 20px;
-      font-size: 1.1rem;
-      border-radius: 8px;
-      cursor: pointer;
-      box-shadow: 0 3px 8px rgba(67, 124, 108, 0.5);
-      transition: background-color 0.3s ease;
-      text-decoration: none;
-      user-select: none;
+    footer div p {
+      margin: 0.2rem;
+      color: #444;
+      font-size: 0.8rem;
+      letter-spacing: 0.5px;
     }
-    .booking-button:hover {
-      background-color: #365f52;
-    }
-    /* Responsive iframe container */
-    .calendly-inline-widget {
-      min-width: 320px;
-      height: 650px;
-      margin-top: 1rem;
-      border-radius: 12px;
-      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
-    }
-    /* Responsive adjustments */
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
+    @media screen and (max-width: 600px) {
+      .social-links {
+        flex-direction: column;
+        gap: 0.8rem;
       }
-      .container {
-        padding: 1rem;
-        margin: 1rem;
-      }
-      .calendly-inline-widget {
-        height: 500px;
-      }
-    }
-    @media (min-width: 1024px) {
-      .calendly-inline-widget {
-        height: 700px;
+      iframe {
+        height: 220px;
       }
     }
   </style>
@@ -136,10 +126,10 @@
     <img src="Patricia N _ professional photo.jpg" alt="Teacher Pat">
     <h2>Meet Teacher Pat</h2>
     <p>
-      Hello! I'm <strong>Patricia Naicker</strong>, also known as <strong>Teacher Pat</strong> — an Online English Teacher, Communication Specialist, and Confidence Coach based in Johannesburg, South Africa.
+      Hello! I'm <strong>Patricia Naicker</strong>, also known as <strong>Teacher Pat</strong> (an Online English Teacher, Communication Specialist, and Confidence Coach based in Johannesburg, South Africa).
     </p>
     <p>
-      I’m passionate about helping learners of all ages become confident, eloquent English speakers. I bring over a decade of experience in corporate communications and am TEFL-certified with hands-on experience tutoring children and adults.
+      I’m passionate about helping learners of all ages become confident, eloquent English speakers. I bring over a decade of experience in corporate communications, and I am TEFL-certified with hands-on experience tutoring children and adults.
     </p>
 
     <h2>What I Offer</h2>
@@ -161,27 +151,41 @@
       <li>BTech Language Practice (Cum Laude) – Tshwane University of Technology</li>
     </ul>
 
-    <h2>Watch My Intro Video</h2>
-    <p>
-      <a href="https://youtu.be/vv7J3eSUc9w?si=_8GaZ0ZYx2oHJI0N" target="_blank" rel="noopener noreferrer">Click here to watch on YouTube</a>
-    </p>
+    <div class="video-and-social">
+      <h2>Watch My Intro Video</h2>
+      <iframe src="https://www.youtube.com/embed/vv7J3eSUc9w?si=_8GaZ0ZYx2oHJI0N" title="Teacher Pat Intro Video" allowfullscreen></iframe>
+      <div class="social-links">
+        <a href="https://wa.me/27827213534" target="_blank" aria-label="WhatsApp">WhatsApp</a>
+        <a href="https://www.linkedin.com/in/patricianaicker" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+        <a href="https://instagram.com/patritzian" target="_blank" aria-label="Instagram">Instagram</a>
+      </div>
+    </div>
 
-    <h2>Book a Session</h2>
-    <a href="https://calendly.com/patricia1naicker" target="_blank" rel="noopener noreferrer" class="booking-button">Book a Session</a>
-
-    <div class="calendly-inline-widget" data-url="https://calendly.com/patricia1naicker" style="min-width:320px;height:650px;"></div>
+    <div class="calendly-embed">
+      <h2>Book a Session</h2>
+      <iframe src="https://calendly.com/patricia1naicker?embed_domain=teacherpatricia.github.io&embed_type=Inline" width="100%" height="630" frameborder="0"></iframe>
+    </div>
 
     <h2>Get In Touch</h2>
     <p>Email: <a href="mailto:patricia1naicker@gmail.com">patricia1naicker@gmail.com</a><br>
     WhatsApp: +27 82 721 3534<br>
-    LinkedIn: <a href="https://www.linkedin.com/in/patricianaicker" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/patricianaicker</a></p>
+    LinkedIn: <a href="https://www.linkedin.com/in/patricianaicker" target="_blank">www.linkedin.com/in/patricianaicker</a></p>
   </div>
 
   <footer>
     &copy; 2025 Teacher Pat | All rights reserved.
+    <div>
+      <p>Thank you for visiting!</p>
+      <p>Спасибо за посещение! (Spasibo za poseshcheniye!)</p>
+      <p>Merci de votre visite !</p>
+      <p>Dankie vir jou besoek!</p>
+      <p>Ngiyabonga ngokuvakashela!</p>
+      <p>방문해 주셔서 감사합니다! (Bangmunhae jusyeoseo gamsahamnida!)</p>
+      <p>感谢您的访问！(Gǎnxiè nín de fǎngwèn!)</p>
+      <p>Vielen Dank für Ihren Besuch!</p>
+      <p>شكراً لزيارتكم! (Shukran liziyaratukum!)</p>
+      <p>ご訪問ありがとうございます！(Gohōmon arigatō gozaimasu!)</p>
+    </div>
   </footer>
-
-  <!-- Calendly inline widget script -->
-  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </body>
 </html>
