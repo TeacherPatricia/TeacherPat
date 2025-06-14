@@ -1,0 +1,4 @@
+
+I’m Teacher Pat, a corporate communications expert turned English teacher and coach. With over 10 years in high-level communication roles, I’ve seen how powerful clear, confident language can be. Now, I teach to help others find their voice, express themselves with ease, and grow in confidence because communication isn’t just a skill, it’s a life-changer.
+
+With Teacher Pat is where confidence meets communication! My lessons go beyond grammar, blending real-life English with mindset coaching to help you speak clearly, boldly, and authentically. Each session is personalized, practical, and empowering – designed to build your skills and your confidence. With 10+ years in corporate communications and a heart for teaching, I’ll help you find your voice and use it with purpose. Ready to speak like you mean it? Let's begin!
