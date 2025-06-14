@@ -4,6 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Teacher Pat | English Tutor & Communication Coach</title>
+  <meta name="description" content="Teacher Pat - Online English tutor and communication coach offering conversational & business English lessons, confidence coaching, and cross-cultural communication. Book your session now!" />
+  <meta name="keywords" content="English tutor, communication coach, online English lessons, TEFL, confidence coaching, business English, conversational English, learn English, English pronunciation, Asian learners" />
+  <meta name="author" content="Patricia Naicker" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Teacher Pat | English Tutor & Communication Coach" />
+  <meta property="og:description" content="Book personalized online English lessons and communication coaching with Teacher Pat." />
+  <meta property="og:image" content="Patricia N _ professional photo.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://teacherpatricia.github.io/TeacherPat/" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Teacher Pat | English Tutor & Communication Coach" />
+  <meta name="twitter:description" content="Book personalized online English lessons and communication coaching with Teacher Pat." />
+  <meta name="twitter:image" content="Patricia N _ professional photo.jpg" />
+
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap');
 
@@ -59,43 +74,57 @@
     a:hover {
       text-decoration: underline;
     }
-    form {
-      margin-top: 2rem;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 0.7rem;
-      margin-bottom: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-family: 'Noto Serif KR', serif;
-      font-size: 1rem;
-      resize: vertical;
-      box-sizing: border-box;
-    }
-    input:focus, textarea:focus {
-      outline: 2px solid #437c6c;
-      border-color: #437c6c;
-    }
-    button {
-      background-color: #437c6c;
-      color: #fff;
-      border: none;
-      padding: 0.75rem 1.5rem;
-      font-size: 1.1rem;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      font-family: 'Noto Serif KR', serif;
-    }
-    button:hover {
-      background-color: #315b4f;
-    }
     footer {
       text-align: center;
       margin: 2rem 0;
       color: #888;
       font-size: 0.9rem;
+    }
+    /* Booking button styling */
+    .booking-button {
+      display: block;
+      max-width: 240px;
+      margin: 2rem auto 1rem auto;
+      background-color: #437c6c;
+      color: #fff;
+      text-align: center;
+      padding: 12px 20px;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 3px 8px rgba(67, 124, 108, 0.5);
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      user-select: none;
+    }
+    .booking-button:hover {
+      background-color: #365f52;
+    }
+    /* Responsive iframe container */
+    .calendly-inline-widget {
+      min-width: 320px;
+      height: 650px;
+      margin-top: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    }
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .container {
+        padding: 1rem;
+        margin: 1rem;
+      }
+      .calendly-inline-widget {
+        height: 500px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .calendly-inline-widget {
+        height: 700px;
+      }
     }
   </style>
 </head>
@@ -134,30 +163,25 @@
 
     <h2>Watch My Intro Video</h2>
     <p>
-      <a href="https://youtu.be/vv7J3eSUc9w?si=_8GaZ0ZYx2oHJI0N" target="_blank">Click here to watch on YouTube</a>
+      <a href="https://youtu.be/vv7J3eSUc9w?si=_8GaZ0ZYx2oHJI0N" target="_blank" rel="noopener noreferrer">Click here to watch on YouTube</a>
     </p>
 
     <h2>Book a Session</h2>
-    <p>
-      <a href="https://calendly.com/teacherpat/english-session" target="_blank" style="color:#437c6c; font-weight: bold; font-size:1.1rem;">Schedule your session here</a>
-    </p>
+    <a href="https://calendly.com/patricia1naicker" target="_blank" rel="noopener noreferrer" class="booking-button">Book a Session</a>
 
-    <h2>Contact Me</h2>
-    <form action="https://formspree.io/f/yourformid" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name" />
-      <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email" />
-      <textarea name="message" rows="4" placeholder="Your Message" required aria-label="Your Message"></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+    <div class="calendly-inline-widget" data-url="https://calendly.com/patricia1naicker" style="min-width:320px;height:650px;"></div>
 
     <h2>Get In Touch</h2>
     <p>Email: <a href="mailto:patricia1naicker@gmail.com">patricia1naicker@gmail.com</a><br>
     WhatsApp: +27 82 721 3534<br>
-    LinkedIn: <a href="https://www.linkedin.com/in/patricianaicker" target="_blank">www.linkedin.com/in/patricianaicker</a></p>
+    LinkedIn: <a href="https://www.linkedin.com/in/patricianaicker" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/patricianaicker</a></p>
   </div>
 
   <footer>
     &copy; 2025 Teacher Pat | All rights reserved.
   </footer>
+
+  <!-- Calendly inline widget script -->
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </body>
 </html>
